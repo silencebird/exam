@@ -1,0 +1,90 @@
+.after-header-img{
+  background-color: #1c1c1c;
+}
+.after-header-img img{
+  width: 100%;
+}
+.blog-page .blog-thumbnails img{
+  max-width: 1042px;
+  width: 100%
+
+}
+.page-title{
+  padding: 80px 0;
+  color: #1c1c1c;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 24px;
+  text-transform: uppercase;
+  &:after{
+    content:'Our featured Post';
+    text-transform: none;
+    display:block;
+    color: #1c1c1c;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 30px;
+  }
+}
+.blog-page .post-info{
+  color: #757575;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 24px;
+  text-transform: uppercase;
+  padding-bottom: 10px ;
+}
+
+.blog-page .read-more {
+  a{
+    padding: 10px 20px;
+    color: #ffaf36;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    border: 1px solid  #ffaf36;
+  }
+  padding: 10px 0;
+  float: right;
+}
+.blog-page .social{
+  padding: 10px 0;
+  p, ul{
+    float:left;
+    padding-right: 10px;
+    vertical-align: middle;
+  }
+}
+
+.blog-page .social-icon{
+  font-size: 16px;
+  color:white;
+  li{
+    float: left;
+    display: block;
+    padding-right:10px;
+  }
+  a .fa{
+    display:inline-block;
+    padding: 8px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color:white;
+    width: 2em;
+    text-align: center;
+  }
+  .fa-facebook{
+      background-color: #3b5998;
+  }
+  .fa-twitter{
+    background-color: #3b5998;
+  }
+  .fa-google{
+      background-color: #d62d20;
+  }
+  .fa-facebook:hover, .fa-twitter:hover, .fa-google:hover{
+    opacity: 0.7;
+  }
+}

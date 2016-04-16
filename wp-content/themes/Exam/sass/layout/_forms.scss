@@ -1,0 +1,49 @@
+.site-footer .email-footer, .site-footer .footer-name-user{
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.site-footer .footer-name-user{
+  background-color: #2a2b2c;
+  border: 1px solid #373839;
+  width:50%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+}
+.site-footer .email-footer{
+  background-color: #2a2b2c;
+  border: 1px solid #373839;
+  width: 50%;
+  float:left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.site-footer .comment-footer{
+  background-color: #2a2b2c;
+  border: 1px solid #373839;
+  width:100%;
+  float:left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.site-footer .footer-submit{
+  background-color: #2a2b2c;
+  width:40%;
+  display: block;
+  color: #ffaf36;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+  height: 51px;
+  border: 2px solid #ffaf36;
+
+
+}

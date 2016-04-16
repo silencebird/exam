@@ -1,0 +1,32 @@
+.site-footer{
+  background-color: #2a2b2c;
+  padding: 80px;
+}
+
+@media (min-width: 320px)and (max-width: 767px){
+  .site-footer{
+    padding: 30px;
+  }
+}
+.footer-widget li a{
+  color: #7b7b7c;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-bottom: 1px solid #373839;
+  &:before{
+    content:'\f0da';
+    font-family: 'FontAwesome';
+    color: #ffaf36;
+    padding-right: 5px;
+  }
+}
+
+.site-footer .footer-widget-area h1{
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+}

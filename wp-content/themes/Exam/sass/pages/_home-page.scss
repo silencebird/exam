@@ -1,0 +1,161 @@
+.home-page .about-us-post{
+  padding: 10px 0;
+}
+.home-page .news, .home-page .about-us, .home-page .services, .home-page .partners, .home-page .clients{
+  padding: 20px 0;
+}
+
+.home-page .pages-title{
+  color: #1c1c1c;
+  font-size: 1.5em;
+  font-weight: 800;
+  text-transform: uppercase;
+  &:after{
+    content:'Our Short Story';
+    display: block;
+    clear: both;
+    color: #1c1c1c;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 100;
+    text-transform: capitalize;
+  }
+}
+.home-page .home-content{
+  color: #585858;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.825em;
+  font-weight: 400;
+  display: block;
+}
+
+.home-page .post-title{
+  padding-left: 0;
+  padding-right: 0;
+  color: #1c1c1c;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+
+}
+.home-page .client-title{
+  padding: 20px 0;
+}
+//services
+.home-page .services{
+  background-color: #eaeff3;
+
+}
+//services
+#flexslider1{
+  background-color: #1c1c1c;
+}
+//flexslider
+#flexslider1 .flex-active-slide .flex-content  {
+  position: absolute;
+  bottom: 50%;
+  left: 0;
+  width:80%;
+}
+
+#flexslider1 .flex-content  {
+  display: block;
+  position: absolute;
+  padding: 15px 18%;
+  color: white;
+  z-index: 1000;
+}
+#flexslider1 .flex-caption{
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+  display: block;
+}
+#flexslider1 .flex-caption::before{
+  content:'Welcome to';
+  display: block;
+  clear: both;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 0;
+}
+
+#flexslider1 .flex-text{
+  width:15%;
+  color: white;
+  font-size: 15px;
+  font-style: italic;
+  line-height: 30px;
+}
+
+@media (min-width: 320px)and (max-width: 767px){
+  #flexslider1 .flex-caption  {
+    font-size: 1em;
+    padding: 15px 10px;
+  }
+}
+
+//flexslider
+//client
+.home-page .clients{
+  background-color: white;
+}
+
+.home-page .clients .services-title:after{
+  content:'Designation';
+  color: #585858;
+  font-size: 14px;
+  font-weight: 400;
+  display: block;
+}
+//client
+
+//news
+
+
+
+.home-page .news{
+    background-color: #eaeff3;
+  .home-page .news{
+}}
+
+.home-page .news-column .news-thumbnails img{
+  width:100%;
+  max-width: 456px;
+}
+
+.home-page .date-column p {
+  display: block;
+}
+.home-page .date-column {
+  .date-news{
+  color: #1c1c1c;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+    .month-year-news{
+      color: #565656;
+      font-size: 14px;
+      font-weight: 400;
+    }
+}
+
+ //news
+
+//partners
+
+.home-page .partners{
+
+}
+.home-page #flexslider2 .flex2-item img{
+  max-width: 88px;
+  width: 100%;
+}
+.flexslider2-title{
+position: absolute;
+  left:-9999;
+}
+//partners

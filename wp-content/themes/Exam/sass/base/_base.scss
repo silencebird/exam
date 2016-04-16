@@ -1,0 +1,13 @@
+.container{
+  margin: 0 auto;
+  text-align: left;
+  padding:0 25px;
+  position: relative;
+}
+.clearfix:after{
+  visibility: hidden;
+  display: block;
+  content: "";
+  clear: both;
+  height: 0;
+}
